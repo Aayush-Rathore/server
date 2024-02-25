@@ -17,6 +17,10 @@ const apiDocumentation = {
   },
   servers: [
     {
+      url: "https://knowledge-nest.onrender.com/", // replace it with deployed server url
+      description: "Production Server",
+    },
+    {
       url: "http://localhost:8000/",
       description: "Local Server",
     },
